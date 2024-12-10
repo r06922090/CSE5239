@@ -1,6 +1,6 @@
 # CSE5239
 Team 10: AI-Driven Resource Management System
-
+Demo: https://osu.zoom.us/rec/share/YWh_0fDLVo-AfpZ7W-z4vyWzBONVP-jbc-YqI7jPQ1pWtIpOHMqXQjz78ecrcwXy.IGFs5SzyJVEkny0-?startTime=1733794111000
 Steps to run the program:
 1. activate your base conda environment.
 2. activate your specific base conda environment.
