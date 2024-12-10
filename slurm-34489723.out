@@ -1,0 +1,58 @@
+Files already downloaded and verified
+Files already downloaded and verified
+Training Configuration:
+Batch Size: 1024
+Learning Rate: 0.02
+Model: ResNet18
+Dataset: CIFAR10
+Optimizer: SGD
+Epochs: 20
+/users/PAS2299/huang5282/miniconda/envs/testing/lib/python3.8/site-packages/torch/utils/data/dataloader.py:557: UserWarning: This DataLoader will create 2 worker processes in total. Our suggested max number of worker in current system is 1, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+/users/PAS2299/huang5282/miniconda/envs/testing/lib/python3.8/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/users/PAS2299/huang5282/miniconda/envs/testing/lib/python3.8/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Epoch 1/20 - Train Loss: 2.2697297602283713 - Train Acc: 45.95
+Test Loss: 1.1887071132659912 - Test Acc: 60.7
+Average Time per Image during Testing: 0.000046s
+Epoch 2/20 - Train Loss: 1.026204020393138 - Train Acc: 64.956
+Test Loss: 0.9745094418525696 - Test Acc: 66.55
+Average Time per Image during Testing: 0.000044s
+Epoch 3/20 - Train Loss: 0.8595143933685458 - Train Acc: 70.396
+Test Loss: 0.9031466603279114 - Test Acc: 69.42
+Average Time per Image during Testing: 0.000047s
+Epoch 4/20 - Train Loss: 0.7609954938596609 - Train Acc: 73.738
+Test Loss: 0.8320169091224671 - Test Acc: 71.65
+Average Time per Image during Testing: 0.000050s
+Epoch 5/20 - Train Loss: 0.6853072059397795 - Train Acc: 76.298
+Test Loss: 0.7897805750370026 - Test Acc: 72.98
+Average Time per Image during Testing: 0.000049s
+Epoch 6/20 - Train Loss: 0.6227662441681843 - Train Acc: 78.354
+Test Loss: 0.7696000695228576 - Test Acc: 74.24
+Average Time per Image during Testing: 0.000051s
+Epoch 7/20 - Train Loss: 0.5738697891332665 - Train Acc: 80.014
+Test Loss: 0.7478892505168915 - Test Acc: 75.18
+Average Time per Image during Testing: 0.000050s
+Epoch 8/20 - Train Loss: 0.5321830620571059 - Train Acc: 81.664
+Test Loss: 0.7392931044101715 - Test Acc: 75.61
+Average Time per Image during Testing: 0.000047s
+Epoch 9/20 - Train Loss: 0.4894386675893044 - Train Acc: 83.088
+Test Loss: 0.7286170482635498 - Test Acc: 76.14
+Average Time per Image during Testing: 0.000048s
+Epoch 10/20 - Train Loss: 0.45266139933041166 - Train Acc: 84.38
+Test Loss: 0.7298078596591949 - Test Acc: 76.25
+Average Time per Image during Testing: 0.000048s
+Epoch 11/20 - Train Loss: 0.4118658498841889 - Train Acc: 85.842
+Test Loss: 0.7409087836742401 - Test Acc: 76.64
+Average Time per Image during Testing: 0.000047s
+Epoch 12/20 - Train Loss: 0.3802622860791732 - Train Acc: 87.108
+Test Loss: 0.747172063589096 - Test Acc: 76.49
+Average Time per Image during Testing: 0.000046s
+Epoch 13/20 - Train Loss: 0.3464318191518589 - Train Acc: 88.256
+Test Loss: 0.7640657782554626 - Test Acc: 76.67
+Average Time per Image during Testing: 0.000049s
+Epoch 14/20 - Train Loss: 0.31704348873118965 - Train Acc: 89.326
+Test Loss: 0.7782563507556916 - Test Acc: 76.93
+Average Time per Image during Testing: 0.000046s
+Early stopping at epoch 14 as validation loss hasn't improved.
